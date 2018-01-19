@@ -39,7 +39,7 @@ def solve(lines):
 
     Second try passed them all, but was inefficient. Basic logic
     it had (in psuedo code):
-        if any([i in ranges for i in max_stop_in_ranges]): total++
+        if any([i in ranges for i in range(max_stop_in_ranges)]): total++
 
     Longer explination of second try:
         If 'i' is in the ranges at any point, the light was on
